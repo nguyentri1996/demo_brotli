@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB2BF9E22076197E009ACC8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2BF9E12076197E009ACC8C /* AppDelegate.swift */; };
+		AB2BF9E42076197E009ACC8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2BF9E32076197E009ACC8C /* ViewController.swift */; };
+		AB2BF9E72076197E009ACC8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2BF9E52076197E009ACC8C /* Main.storyboard */; };
+		AB2BF9E92076197F009ACC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2BF9E82076197F009ACC8C /* Assets.xcassets */; };
+		AB2BF9EC2076197F009ACC8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2BF9EA2076197F009ACC8C /* LaunchScreen.storyboard */; };
+		AB2BF9F72076197F009ACC8C /* Demo_BrotliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2BF9F62076197F009ACC8C /* Demo_BrotliTests.swift */; };
+		AB2BFA022076197F009ACC8C /* Demo_BrotliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2BFA012076197F009ACC8C /* Demo_BrotliUITests.swift */; };
+		AB2BFA1320761B56009ACC8C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2BFA1120761B56009ACC8C /* Alamofire.framework */; };
+		AB2BFA5220762BB2009ACC8C /* Brotli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2BFA1520761EC3009ACC8C /* Brotli.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB2BF9F32076197F009ACC8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2BF9D62076197E009ACC8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2BF9DD2076197E009ACC8C;
+			remoteInfo = Demo_Brotli;
+		};
+		AB2BF9FE2076197F009ACC8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2BF9D62076197E009ACC8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2BF9DD2076197E009ACC8C;
+			remoteInfo = Demo_Brotli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB2BF9DE2076197E009ACC8C /* Demo_Brotli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Brotli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2BF9E12076197E009ACC8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB2BF9E32076197E009ACC8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB2BF9E62076197E009ACC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB2BF9E82076197F009ACC8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB2BF9EB2076197F009ACC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB2BF9ED2076197F009ACC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2BF9F22076197F009ACC8C /* Demo_BrotliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_BrotliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2BF9F62076197F009ACC8C /* Demo_BrotliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_BrotliTests.swift; sourceTree = "<group>"; };
+		AB2BF9F82076197F009ACC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2BF9FD2076197F009ACC8C /* Demo_BrotliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_BrotliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2BFA012076197F009ACC8C /* Demo_BrotliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_BrotliUITests.swift; sourceTree = "<group>"; };
+		AB2BFA032076197F009ACC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2BFA1020761B56009ACC8C /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		AB2BFA1120761B56009ACC8C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		AB2BFA1520761EC3009ACC8C /* Brotli.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Brotli.framework; path = Carthage/Build/iOS/Brotli.framework; sourceTree = "<group>"; };
+		AB2BFA5320762C09009ACC8C /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB2BF9DB2076197E009ACC8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2BFA1320761B56009ACC8C /* Alamofire.framework in Frameworks */,
+				AB2BFA5220762BB2009ACC8C /* Brotli.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2BF9EF2076197F009ACC8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2BF9FA2076197F009ACC8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB2BF9D52076197E009ACC8C = {
+			isa = PBXGroup;
+			children = (
+				AB2BF9E02076197E009ACC8C /* Demo_Brotli */,
+				AB2BF9F52076197F009ACC8C /* Demo_BrotliTests */,
+				AB2BFA002076197F009ACC8C /* Demo_BrotliUITests */,
+				AB2BF9DF2076197E009ACC8C /* Products */,
+				AB2BFA0F20761B56009ACC8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB2BF9DF2076197E009ACC8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB2BF9DE2076197E009ACC8C /* Demo_Brotli.app */,
+				AB2BF9F22076197F009ACC8C /* Demo_BrotliTests.xctest */,
+				AB2BF9FD2076197F009ACC8C /* Demo_BrotliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB2BF9E02076197E009ACC8C /* Demo_Brotli */ = {
+			isa = PBXGroup;
+			children = (
+				AB2BF9E12076197E009ACC8C /* AppDelegate.swift */,
+				AB2BF9E32076197E009ACC8C /* ViewController.swift */,
+				AB2BF9E52076197E009ACC8C /* Main.storyboard */,
+				AB2BF9E82076197F009ACC8C /* Assets.xcassets */,
+				AB2BF9EA2076197F009ACC8C /* LaunchScreen.storyboard */,
+				AB2BF9ED2076197F009ACC8C /* Info.plist */,
+				AB2BFA5320762C09009ACC8C /* Config.xcconfig */,
+			);
+			path = Demo_Brotli;
+			sourceTree = "<group>";
+		};
+		AB2BF9F52076197F009ACC8C /* Demo_BrotliTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB2BF9F62076197F009ACC8C /* Demo_BrotliTests.swift */,
+				AB2BF9F82076197F009ACC8C /* Info.plist */,
+			);
+			path = Demo_BrotliTests;
+			sourceTree = "<group>";
+		};
+		AB2BFA002076197F009ACC8C /* Demo_BrotliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB2BFA012076197F009ACC8C /* Demo_BrotliUITests.swift */,
+				AB2BFA032076197F009ACC8C /* Info.plist */,
+			);
+			path = Demo_BrotliUITests;
+			sourceTree = "<group>";
+		};
+		AB2BFA0F20761B56009ACC8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB2BFA1520761EC3009ACC8C /* Brotli.framework */,
+				AB2BFA1120761B56009ACC8C /* Alamofire.framework */,
+				AB2BFA1020761B56009ACC8C /* AlamofireImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB2BF9DD2076197E009ACC8C /* Demo_Brotli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2BFA062076197F009ACC8C /* Build configuration list for PBXNativeTarget "Demo_Brotli" */;
+			buildPhases = (
+				AB2BF9DA2076197E009ACC8C /* Sources */,
+				AB2BF9DB2076197E009ACC8C /* Frameworks */,
+				AB2BF9DC2076197E009ACC8C /* Resources */,
+				AB2BFA1420761B71009ACC8C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo_Brotli;
+			productName = Demo_Brotli;
+			productReference = AB2BF9DE2076197E009ACC8C /* Demo_Brotli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB2BF9F12076197F009ACC8C /* Demo_BrotliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2BFA092076197F009ACC8C /* Build configuration list for PBXNativeTarget "Demo_BrotliTests" */;
+			buildPhases = (
+				AB2BF9EE2076197F009ACC8C /* Sources */,
+				AB2BF9EF2076197F009ACC8C /* Frameworks */,
+				AB2BF9F02076197F009ACC8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2BF9F42076197F009ACC8C /* PBXTargetDependency */,
+			);
+			name = Demo_BrotliTests;
+			productName = Demo_BrotliTests;
+			productReference = AB2BF9F22076197F009ACC8C /* Demo_BrotliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB2BF9FC2076197F009ACC8C /* Demo_BrotliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2BFA0C2076197F009ACC8C /* Build configuration list for PBXNativeTarget "Demo_BrotliUITests" */;
+			buildPhases = (
+				AB2BF9F92076197F009ACC8C /* Sources */,
+				AB2BF9FA2076197F009ACC8C /* Frameworks */,
+				AB2BF9FB2076197F009ACC8C /* Resources */,
+				AB2BFA512076292E009ACC8C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2BF9FF2076197F009ACC8C /* PBXTargetDependency */,
+			);
+			name = Demo_BrotliUITests;
+			productName = Demo_BrotliUITests;
+			productReference = AB2BF9FD2076197F009ACC8C /* Demo_BrotliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB2BF9D62076197E009ACC8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = nguyentri;
+				TargetAttributes = {
+					AB2BF9DD2076197E009ACC8C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AB2BF9F12076197F009ACC8C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AB2BF9DD2076197E009ACC8C;
+					};
+					AB2BF9FC2076197F009ACC8C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AB2BF9DD2076197E009ACC8C;
+					};
+				};
+			};
+			buildConfigurationList = AB2BF9D92076197E009ACC8C /* Build configuration list for PBXProject "Demo_Brotli" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB2BF9D52076197E009ACC8C;
+			productRefGroup = AB2BF9DF2076197E009ACC8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB2BF9DD2076197E009ACC8C /* Demo_Brotli */,
+				AB2BF9F12076197F009ACC8C /* Demo_BrotliTests */,
+				AB2BF9FC2076197F009ACC8C /* Demo_BrotliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB2BF9DC2076197E009ACC8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2BF9EC2076197F009ACC8C /* LaunchScreen.storyboard in Resources */,
+				AB2BF9E92076197F009ACC8C /* Assets.xcassets in Resources */,
+				AB2BF9E72076197E009ACC8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2BF9F02076197F009ACC8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2BF9FB2076197F009ACC8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB2BFA1420761B71009ACC8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Brotli.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		AB2BFA512076292E009ACC8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB2BF9DA2076197E009ACC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2BF9E42076197E009ACC8C /* ViewController.swift in Sources */,
+				AB2BF9E22076197E009ACC8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2BF9EE2076197F009ACC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2BF9F72076197F009ACC8C /* Demo_BrotliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2BF9F92076197F009ACC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2BFA022076197F009ACC8C /* Demo_BrotliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB2BF9F42076197F009ACC8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2BF9DD2076197E009ACC8C /* Demo_Brotli */;
+			targetProxy = AB2BF9F32076197F009ACC8C /* PBXContainerItemProxy */;
+		};
+		AB2BF9FF2076197F009ACC8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2BF9DD2076197E009ACC8C /* Demo_Brotli */;
+			targetProxy = AB2BF9FE2076197F009ACC8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB2BF9E52076197E009ACC8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB2BF9E62076197E009ACC8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB2BF9EA2076197F009ACC8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB2BF9EB2076197F009ACC8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB2BFA042076197F009ACC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB2BFA052076197F009ACC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB2BFA072076197F009ACC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E882GX565Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Demo_Brotli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nguyentri.Demo-Brotli";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB2BFA082076197F009ACC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E882GX565Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Demo_Brotli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nguyentri.Demo-Brotli";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB2BFA0A2076197F009ACC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E882GX565Y;
+				INFOPLIST_FILE = Demo_BrotliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nguyentri.Demo-BrotliTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo_Brotli.app/Demo_Brotli";
+			};
+			name = Debug;
+		};
+		AB2BFA0B2076197F009ACC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E882GX565Y;
+				INFOPLIST_FILE = Demo_BrotliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nguyentri.Demo-BrotliTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo_Brotli.app/Demo_Brotli";
+			};
+			name = Release;
+		};
+		AB2BFA0D2076197F009ACC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E882GX565Y;
+				INFOPLIST_FILE = Demo_BrotliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nguyentri.Demo-BrotliUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Demo_Brotli;
+			};
+			name = Debug;
+		};
+		AB2BFA0E2076197F009ACC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E882GX565Y;
+				INFOPLIST_FILE = Demo_BrotliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nguyentri.Demo-BrotliUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Demo_Brotli;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB2BF9D92076197E009ACC8C /* Build configuration list for PBXProject "Demo_Brotli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2BFA042076197F009ACC8C /* Debug */,
+				AB2BFA052076197F009ACC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2BFA062076197F009ACC8C /* Build configuration list for PBXNativeTarget "Demo_Brotli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2BFA072076197F009ACC8C /* Debug */,
+				AB2BFA082076197F009ACC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2BFA092076197F009ACC8C /* Build configuration list for PBXNativeTarget "Demo_BrotliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2BFA0A2076197F009ACC8C /* Debug */,
+				AB2BFA0B2076197F009ACC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2BFA0C2076197F009ACC8C /* Build configuration list for PBXNativeTarget "Demo_BrotliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2BFA0D2076197F009ACC8C /* Debug */,
+				AB2BFA0E2076197F009ACC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB2BF9D62076197E009ACC8C /* Project object */;
+}

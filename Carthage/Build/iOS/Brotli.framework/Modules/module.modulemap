@@ -1,0 +1,6 @@
+framework module Brotli {
+  umbrella header "Brotli.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,9 @@
+{
+  "commitish" : "0.1",
+  "iOS" : [
+    {
+      "name" : "Brotli",
+      "hash" : "17e145b41934bfa5f7cf18d3905d649649a008eacec4dae6f98cb15dcfa686f5"
+    }
+  ]
+}
